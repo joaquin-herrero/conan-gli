@@ -10,7 +10,7 @@ class GliConan(ConanFile):
     description = "Recipe for OpenGL Image. GLI is a header only C++ image library for graphics software"
     topics = ("opengl", "image")
     no_copy_source = True
-    requires = "glm/0.9.8.5@bincrafters/stable"
+    requires = "glm:g-truc/0.9.8.5@bincrafters/stable"
     # No settings/options are necessary, this is header only
 
     def source(self):
